@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  background: #333;
+}
+.container {
+  max-width: 95%;
+  margin: 0 auto;
+  background: #333;
+}
+.clear-float {
+  clear: both;
+}
+.profile-img {
+  width: 80px;
+  height: 85px;
+  border: #f4f4f 3px solid;
+  border-radius: 50%;
+  margin: 10px;
+  float: left;
+}
+.cv-tittle h1 {
+  font-family: 'Ubuntu', sans-serif;
+}
+.cv-tittle h3 {
+  color: aqua;
+  letter-spacing: 3px;
+}
+.cv-tittle {
+  float: left;
+  font-size: 14px;
+  padding: 20px;
+}
+.contact-section {
+  float: right;
+  margin: 10px;
+  padding: 10px;
+  border: 3px solid teal;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.contact-section a {
+  color: yellow;
+  text-decoration: none;
+}
+.contact-section a:hover {
+  color: tomato;
+  text-decoration: underline;
+}
+hr {
+  border: 1px solid yellow;
+  border-bottom: none;
+  width: 95%;
+  margin: 20px auto;
+}
+.section-1 h2, .section-2 h2, .section-3 h2 {
+  width: 30%;
+  padding: 10px;
+  float: left;
+  font-size: 20px;
+  text-align: center;
+  color: mediumseagreen;
+}
+.section-2 h2 {
+  width: 100%;
+  text-align: center;
+}
+.section-2 div {
+  width: 100%;
+}
+.section-2 ul {
+  margin-left: 50px;
+  font-size: 15px;
+}
+.section-1 div, .section-2 div, .section-3 div {
+  float: right;
+  font-size: 14px;
+  padding: 10px;
+  color: #f4f4f4;
+  margin-bottom: 20px;
+}
+.section-3 div {
+  width: 50%;
+}
+.section-3 ul {
+  list-style-type: square;
+}
+footer .signature {
+  font-family: 'Satisfy', cursive;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+footer .footer-icon {
+  background: teal;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+footer .footer-icon a {
+  font-size: 30px;
+  margin-right: 10px;
+  color: black;
+  text-decoration: none;
+}
+footer .footer-icon a:hover {
+  color: #333;
+}
